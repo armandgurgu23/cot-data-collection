@@ -30,4 +30,4 @@ class COT_Data_Reader():
 
         raw_data_df = pd.read_csv(raw_data)
 
-        breakpoint()
+        return raw_data_df, data_last_updated
